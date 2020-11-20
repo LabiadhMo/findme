@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Ajout" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/ednum_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="numero"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edlong_ajouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="longitude"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edlat_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="latitude"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnvalid_ajouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="valider" />
+
+    <Button
+        android:id="@+id/btnste_ajouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quitter" />
+
+</LinearLayout>
